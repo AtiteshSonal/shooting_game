@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shooting Game </title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div id="Title">SHOOT THE ENEMY </div>
+    <div class="battlefield">
+
+        <!-- Player 1 -->
+        <div id="p1banner"></div>
+        <div id="p1">
+            <img src="https://mwap3.netlify.app/Images/p1.png" alt="Player 1" height="70px" width="100px">   
+        </div>
+        <div id="p1banner23">
+            <img src="https://mwap3.netlify.app/Images/p1Fire.png" height="80px" width="120px" alt="p1Fire"> <span id="p1FireScore"></span>
+        </div>
+
+
+
+        <!-- Player 2 -->
+        <div id="p2banner"></div>
+        <div id="p2" >
+        <img src="https://mwap3.netlify.app/Images/p2.png" alt="Player 1" height="70px" width="100px">
+     </div>
+     <div id="p2banner24">
+        <img src="https://mwap3.netlify.app/Images/p2Fire.png" height="80px" width="120px" alt="p2Fire"> <span id="p2FireScore"></span>
+    </div>
+
+    </div>
+      <!-- Assigning Buttons  --> 
+        <br>
+      <Button id="ShootBtn" onclick="shootBtn()">Shoot</Button>     
+      <br><br>
+      <div class="Score-Board"> ROUND 1
+          <div class="grid-item" id="grid-item-1">Player 1</div>
+          <div class="grid-item" id="grid-item-3">Win</div>
+          <div class="grid-item" id="grid-item-4">0</div>
+          <div class="grid-item" id="grid-item-5">Player 2</div>
+          <div class="grid-item" id="grid-item-7">Win</div>
+          <div class="grid-item" id="grid-item-8">0</div> 
+      </div>
+      <br>
+      <!-- Round 2 -->
+      <Button id="ShootBtn2" onclick="shootBtn2()">Shoot</Button>
+      <br><br>
+      <div class="Score-Board"> ROUND 2
+        <div class="grid-item" id="grid-item-12">Player 1</div>
+        <div class="grid-item" id="grid-item-32">Win</div>
+        <div class="grid-item" id="grid-item-42">0</div>
+        <div class="grid-item" id="grid-item-52">Player 2</div>
+        <div class="grid-item" id="grid-item-72">Win</div>
+        <div class="grid-item" id="grid-item-82">0</div>  
+    </div>
+    <!-- round 3 -->
+    <Button id="ShootBtn3" onclick="shootBtn3()">Shoot</Button>
+    <br><br>
+      <div class="Score-Board"> ROUND 3
+        <div class="grid-item" id="grid-item-13">Player 1</div>
+        <div class="grid-item" id="grid-item-33">Win</div>
+        <div class="grid-item" id="grid-item-43">0</div>
+        <div class="grid-item" id="grid-item-53">Player 2</div>
+        <div class="grid-item" id="grid-item-73">Win</div>
+        <div class="grid-item" id="grid-item-83">0</div>  
+    </div>
+      <!-- round 4 -->
+      <Button id="ShootBtn4" onclick="shootBtn4()">Shoot</Button>
+      <br><br>
+        <div class="Score-Board"> ROUND 4
+          <div class="grid-item" id="grid-item-14">Player 1</div>
+          <div class="grid-item" id="grid-item-34">Win</div>
+          <div class="grid-item" id="grid-item-44">0</div>
+          <div class="grid-item" id="grid-item-54">Player 2</div>
+          <div class="grid-item" id="grid-item-74">Win</div>
+          <div class="grid-item" id="grid-item-84">0</div>  
+      </div>
+      <!-- round 5 -->
+      <Button id="ShootBtn5" onclick="shootBtn5()">Shoot</Button>
+      <br><br>
+        <div class="Score-Board"> ROUND 5
+          <div class="grid-item" id="grid-item-15">Player 1</div>
+          <div class="grid-item" id="grid-item-35">Win</div>
+          <div class="grid-item" id="grid-item-45">0</div>
+          <div class="grid-item" id="grid-item-55">Player 2</div>
+          <div class="grid-item" id="grid-item-75">Win</div>
+          <div class="grid-item" id="grid-item-85">0</div>  
+      </div>
+      <div class="result">
+        <div class="result-item" id="grid-item-95"></div>
+      </div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
